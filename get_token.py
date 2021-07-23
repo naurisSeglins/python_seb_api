@@ -2,7 +2,7 @@ import http.client
 
 conn = http.client.HTTPSConnection("api-sandbox.sebgroup.com")
 
-payload = "client_id=MHuQ6MLqCH2Oj3ipZqCq&client_secret=OA6qvVUYN6qTwkIjmdyl&code=................................&redirect_uri=https://example.com&grant_type=authorization_code"
+payload = "client_id=MHuQ6MLqCH2Oj3ipZqCq&client_secret=OA6qvVUYN6qTwkIjmdyl&code=IkzUL8i5VC3HwDCTnqRvy7CrsIj2Vr&redirect_uri=https://example.com&grant_type=authorization_code"
 
 headers = {
     'content-type': "application/x-www-form-urlencoded",

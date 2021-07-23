@@ -2,8 +2,8 @@ import http.client
 
 conn = http.client.HTTPSConnection("api-sandbox.sebgroup.com")
 headers = {
-    # 'X-Request-ID': "6MmRlJEbXci0aquKL4SiFhJdtkIz1tfN",
-    'Authorization': "Bearer R7HXglguNJQdAG2lniWH",
+    'X-Request-ID': "6MmRlJEbXci0aquKL4SiFhJdtkIz1tfN",
+    'Authorization': "Bearer MC9fOSimQz2LKO8rkrUx",
     'accept': "application/json"
 }
 
